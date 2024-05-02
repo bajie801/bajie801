@@ -55,16 +55,7 @@
     const id = 24425;
 
     function handleClick (index) {
-        if(index == 100){
-            window.location.assign("https://spill-the-tea.s3.ap-southeast-1.amazonaws.com/bj.1.0.3.apk")
-            return;
-        }
-
-	if(index == 101){
-            window.location.assign("https://spill-the-tea.s3.ap-southeast-1.amazonaws.com/bajie.mobileconfig")
-            return;
-        }
-
+    
 	    
         var copyipt = document.createElement("input");
         var text = `${url[index]}`;
@@ -87,21 +78,6 @@
 <div class="logo"><img src="https://spill-the-tea.s3.ap-southeast-1.amazonaws.com/static/bj_ban.jpg"></div>
 <div class="list">
 
-<div onclick="handleClick(100)" data-umami-event=id>
-<img src="https://pic.rmb.bdstatic.com/bjh/user/97417c88943e84dc11b723f80f69e17d.png">
-<div class="text">
-<div class="btnTitle" style="color: #099c06;">安卓下载</div>
-<div class="btnLink" id="2" style="color: #099c06;">点击自动下载</div>
-</div>
-</div>
-
-<div onclick="handleClick(101)" data-umami-event=id>
-<img src="https://pic.rmb.bdstatic.com/bjh/user/97417c88943e84dc11b723f80f69e17d.png">
-<div class="text">
-<div class="btnTitle" style="color: #099c06;">苹果下载</div>
-<div class="btnLink" id="2" style="color: #099c06;">点击自动下载</div>
-</div>
-</div>	
 
 	
 
